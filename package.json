@@ -17,6 +17,7 @@
     "gatsby-plugin-sitemap": "^1.2.9",
     "gatsby-plugin-styled-components": "^2.0.4",
     "gatsby-plugin-webpack-bundle-analyzer": "^0.1.1",
+    "gh-pages": "^1.1.0",
     "react-dom": "^15.6.1",
     "react-helmet": "^5.2.0",
     "styled-components": "^2.1.2",
@@ -39,6 +40,7 @@
   "scripts": {
     "build": "rm -rf public/* && gatsby build",
     "start": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format:js": "prettier 'src/**/*.{js,jsx}' --write",
     "test": "jest",
     "test:watch": "jest --watch",
