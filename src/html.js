@@ -1,5 +1,5 @@
 import React from "react";
-import favicon from "../static/favicon/favicon.png";
+import favicon from "../static/favicon/apple-icon.png";
 import config from "../data/SiteConfig";
 
 module.exports = class HTML extends React.Component {
@@ -9,7 +9,6 @@ module.exports = class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <link href="//fonts.googleapis.com" rel="dns-prefetch" />
-          <link href="//cdn.segment.com" rel="dns-prefetch" />
           <meta content="True" name="HandheldFriendly" />
           <meta content="320" name="MobileOptimized" />
           <meta content="white" name="apple-mobile-web-app-status-bar-style" />
@@ -30,14 +29,13 @@ module.exports = class HTML extends React.Component {
           <meta property="og:image:type" content="image/jpeg" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
-          <meta property="fb:admins" content="100007830075009" />
           <meta
             property="og:description"
             content={config.ogDescriptionFacebook}
           />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@unrollme" />
-          <meta name="twitter:creator" content="@unrollme" />
+          <meta name="twitter:site" content="@melissaroxie" />
+          <meta name="twitter:creator" content="@melissaroxie" />
           <meta name="twitter:title" content={config.siteTitle} />
           <meta
             name="twitter:description"
@@ -58,27 +56,6 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          <script type="application/ld+json" dangerouslySetInnerHTML={{
-            __html:  `
-              {
-                "@context": "http://schema.org",
-                "@type": "Organization",
-                "url": "http://unroll.me",
-                "sameAs": [
-                  "https://twitter.com/unrollme",
-                  "https://www.facebook.com/unroll.me",
-                  "https://www.instagram.com/unrollme"
-                ],
-                "logo": "https://unroll.me/images/logo_google_results.png",
-                "contactPoint": [
-                  { "@type": "ContactPoint",
-                    "url": "https://support.unroll.me/hc/en-us",
-                    "contactType": "customer service"
-                  }
-                ]
-              }
-            `
-          }} />
         </body>
       </html>
     );

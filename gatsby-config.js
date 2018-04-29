@@ -29,15 +29,10 @@ module.exports = {
         display: "minimal-ui",
         icons: [
           {
-            src: `${config.faviconPath}/favicon-192x192.png`,
+            src: `${config.faviconPath}/android-icon-192x192.png`,
             sizes: "192x192",
             type: "image/png"
           },
-          {
-            src: `${config.faviconPath}/favicon-512x512.png`,
-            sizes: "512x512",
-            type: "image/png"
-          }
         ]
       }
     },
