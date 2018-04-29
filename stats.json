@@ -1,9 +1,5 @@
 {
   "assetsByChunkName": {
-    "component---src-pages-gallery-js": [
-      "component---src-pages-gallery-js-581799f1bd868954b107.js",
-      "component---src-pages-gallery-js-581799f1bd868954b107.js.map"
-    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-785028f257a1a78b47a3.js",
       "component---src-pages-index-js-785028f257a1a78b47a3.js.map"
@@ -17,12 +13,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b1fee3baa2b17d10d487.js",
-      "component---src-layouts-index-js-b1fee3baa2b17d10d487.js.map"
-    ],
-    "path---gallery": [
-      "path---gallery-a0e39f21c11f6a62c5ab.js",
-      "path---gallery-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-layouts-index-js-257b695b57dfd2e58ea6.js",
+      "component---src-layouts-index-js-257b695b57dfd2e58ea6.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -32,13 +24,21 @@
       "commons-0bad8ba37545ccf0d612.js",
       "commons-0bad8ba37545ccf0d612.js.map"
     ],
+    "path---portfolio": [
+      "path---portfolio-a0e39f21c11f6a62c5ab.js",
+      "path---portfolio-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-e7efbcaae441d8381946.js",
-      "app-e7efbcaae441d8381946.js.map"
+      "app-495debb802a11a42a782.js",
+      "app-495debb802a11a42a782.js.map"
+    ],
+    "component---src-pages-portfolio-js": [
+      "component---src-pages-portfolio-js-581799f1bd868954b107.js",
+      "component---src-pages-portfolio-js-581799f1bd868954b107.js.map"
     ]
   }
 }
