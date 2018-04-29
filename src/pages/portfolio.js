@@ -2,6 +2,13 @@ import React, { Component } from "react"
 import Masonry from 'react-masonry-css'
 import { Style } from "react-style-tag"
 
+const breakpointColumnsObj = {
+  default: 4,
+  1100: 3,
+  700: 2,
+  500: 1
+};
+
 const elements = [
   { src: "https://i.pinimg.com/564x/7a/9a/4d/7a9a4d35d53f1bc948c2e087af57d175.jpg" },
   { src: "https://i.pinimg.com/564x/c0/df/1d/c0df1d8220dcb38bb1a8f28ee9631cbb.jpg" },
@@ -40,19 +47,19 @@ class GalleryPage extends Component {
   render() {
     return (
       <div>
-        <div className="mw9 center bb bw1 b--black-05 pt2 pb4 mb6">
-          <h1 className="f-headline lh-solid mb1 avenir ttu tracked fw1 black-70">Melissa Calamia</h1>
+        <div className="mw9 center bb bw1 b--black-05 pt2 pb4-ns pb2 mb6-ns mb3 relative ph3">
+          <h1 className="f1 f-headline-l lh-solid mb1 avenir ttu tracked fw1 black-70">Melissa Calamia</h1>
           <h2 className="f3 lh-copy athelas normal fw9">A New York based intimates & swimwear designer</h2>
         </div>
 
-        <div className="mw9 center">
+        <div className="mw9 center relative ph3">
           <Masonry
-            breakpointCols={4}
+            breakpointCols={breakpointColumnsObj}
             className="my-masonry-grid"
             columnClassName="my-masonry-grid_column"
           >
             {elements.map(item => (
-              <div id={item.src}>
+              <div id={item.src} className="mb3">
                 <img className="db w-100" src={item.src} />
               </div>
             ))}
@@ -63,11 +70,11 @@ class GalleryPage extends Component {
               display: -webkit-box;
               display: -ms-flexbox;
               display: flex;
-              margin-left: 0;
+              margin-left: -15px;
               width: auto;
             }
             .my-masonry-grid_column {
-              padding-left: 0;
+              padding-left: 15px;
               background-clip: padding-box;
             }
           `}</Style>
