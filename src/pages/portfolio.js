@@ -145,12 +145,12 @@ class GalleryPage extends Component {
   render() {
     return (
       <div>
-        <div className="mw9 center bb bw1 b--black-05 pt2 pb4-ns pb2 mb6-ns mb3 relative ph3">
+        <div className="mw9 center bb bw1 b--black-05 pt2 pb4-ns pb2 mb6-ns mb3 relative">
           <h1 className="f1 f-headline-l lh-solid mb1 avenir ttu tracked fw1 black-70">Melissa Calamia</h1>
           <h2 className="f3 lh-copy athelas normal fw9">A New York based intimates & swimwear designer</h2>
         </div>
 
-        <div className="mw9 center relative ph3">
+        <div className="mw9 center relative">
           <Masonry
             breakpointCols={breakpointColumnsObj}
             className="my-masonry-grid"

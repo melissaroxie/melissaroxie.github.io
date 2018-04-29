@@ -2,9 +2,9 @@ import React from "react";
 import Link from "gatsby-link"
 
 const TemplateWrapper = ({ children }) => (
-  <div>
-    <div className="mw9 center relative ph3">
-      <nav className="db dt-l w-100 border-box pa3 ph5-l">
+  <div className="ph3 ph4-m ph5-l">
+    <div className="mw9 center relative">
+      <nav className="db dt-l w-100 border-box pa3 pt3 pt4-l">
         <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
           <Link className="avenir link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/" title="Home">Home</Link>
           <Link className="avenir link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/portfolio" title="Portfolio">Portfolio</Link>

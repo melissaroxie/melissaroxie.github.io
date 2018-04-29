@@ -4,19 +4,19 @@ class IndexPage extends Component {
   render() {
     return (
       <div>
-        <div className="mw9 center bb bw1 b--black-05 pt2 pb4-ns pb2 mb6-ns mb3 relative ph3">
+        <div className="mw9 center bb bw1 b--black-05 pt2 pb4-ns pb2 mb6-ns mb3 relative">
           <h1 className="f1 f-headline-l lh-solid mb1 avenir ttu tracked fw1 black-70">Melissa Calamia</h1>
           <h2 className="f3 lh-copy athelas normal fw9">A New York based intimates & swimwear designer</h2>
         </div>
 
-        <div className="mw8 center mv5 bb bw1 b--black-05 pb5 relative ph3">
+        <div className="mw8 center mv5 bb bw1 b--black-05 pb5 relative">
           <div>
             <h1 className="f1 lh-copy-ns mb3 mt0 dib mr3 athelas">Aéropostale</h1>
             <p className="dib lh-copy f5 i athelas">New York, NY / April 2017- Present</p>
           </div>
           <h2 className="f4 lh-copy mt0 black-70 normal avenir tracked ttu">Designer - Intimates, Swimwear & Activewear</h2>
           <ul className="mt4">
-            <li className="lh-copy f4_ns avenir mb3">
+            <li className="lh-copy f4-ns avenir mb3">
               Lead the design and development of Intimates, Swimwear and Activewear categories by analyzing market trends and translating seasonal concepts into a fully articulated line.
             </li>
             <li className="lh-copy f4-ns avenir mb3">
@@ -34,7 +34,7 @@ class IndexPage extends Component {
           </ul>
         </div>
 
-        <div className="mw8 center mv5 bb bw1 b--black-05 pb5 relative ph3">
+        <div className="mw8 center mv5 bb bw1 b--black-05 pb5 relative">
           <div>
             <h1 className="f1 lh-copy-ns mb3 mt0 dib mr3 athelas">Shilo Byrd Studio</h1>
             <p className="dib lh-copy f5 i athelas">Brooklyn, NY / December 2016 - April 2018</p>
@@ -56,7 +56,7 @@ class IndexPage extends Component {
           </ul>
         </div>
 
-        <div className="mw8 center mv5 bb bw1 b--black-05 pb5 relative ph3">
+        <div className="mw8 center mv5 bb bw1 b--black-05 pb5 relative">
           <div>
             <h1 className="f1 lh-copy-ns mb3 mt0 dib mr3 athelas">Zinke</h1>
             <p className="dib lh-copy f5 i athelas">New York, NY / March 2013 - April 2015</p>
@@ -81,7 +81,7 @@ class IndexPage extends Component {
           </ul>
         </div>
 
-        <div className="mw8 center mv5 pb5 relative ph3">
+        <div className="mw8 center mv5 pb5 relative">
           <div>
             <h1 className="f1 lh-copy-ns mb3 mt0 dib mr3 athelas">Additional skills, experience & education</h1>
           </div>
