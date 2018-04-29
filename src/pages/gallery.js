@@ -52,7 +52,7 @@ class GalleryPage extends Component {
             columnClassName="my-masonry-grid_column"
           >
             {elements.map(item => (
-              <div>
+              <div className="mb4">
                 <img className="db w-100" src={item.src} />
               </div>
             ))}
@@ -69,10 +69,6 @@ class GalleryPage extends Component {
             .my-masonry-grid_column {
               padding-left: 30px;
               background-clip: padding-box;
-            }
-            
-            .my-masonry-grid_column > div {
-              margin-bottom: 30px;
             }
           `}</Style>
         </div>
