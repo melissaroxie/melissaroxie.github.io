@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import StackGrid from "react-stack-grid";
+import React, { Component } from "react"
+import Masonry from 'react-masonry-css'
+import { Style } from "react-style-tag"
 
 const elements = [
   { src: "https://i.pinimg.com/564x/7a/9a/4d/7a9a4d35d53f1bc948c2e087af57d175.jpg" },
@@ -45,17 +46,35 @@ class GalleryPage extends Component {
         </div>
 
         <div className="mw9 center">
-          <StackGrid
-            columnWidth={"25%"}
-            gutterWidth={20}
-            gutterHeight={20}
-            duration={0}
-            monitorImagesLoaded={true}
+          <Masonry
+            breakpointCols={4}
+            className="my-masonry-grid"
+            columnClassName="my-masonry-grid_column"
           >
             {elements.map(item => (
-              <img className="db w-100" src={item.src} />
+              <div>
+                <img className="db w-100" src={item.src} />
+              </div>
             ))}
-          </StackGrid>
+          </Masonry>
+
+          <Style>{`
+            .my-masonry-grid {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              margin-left: -30px;
+              width: auto;
+            }
+            .my-masonry-grid_column {
+              padding-left: 30px;
+              background-clip: padding-box;
+            }
+            
+            .my-masonry-grid_column > div {
+              margin-bottom: 30px;
+            }
+          `}</Style>
         </div>
       </div>
     );
