@@ -20,7 +20,8 @@
     "gh-pages": "^1.1.0",
     "react-dom": "^15.6.1",
     "react-helmet": "^5.2.0",
-    "react-stack-grid": "^0.7.1",
+    "react-sizeme": "2.4.1",
+    "react-stack-grid": "2.4.1",
     "styled-components": "^2.1.2",
     "webfontloader": "^1.6.28"
   },
