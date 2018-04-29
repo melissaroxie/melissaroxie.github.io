@@ -9,11 +9,11 @@
   "author": "James Seymour-Lock <james@unroll.me>",
   "dependencies": {
     "gatsby": "^1.9.149",
+    "gatsby-link": "^1.6.41",
     "gatsby-plugin-accessibilityjs": "^1.0.2",
     "gatsby-plugin-manifest": "^1.0.12",
     "gatsby-plugin-offline": "^1.0.12",
     "gatsby-plugin-react-helmet": "^2.0.3",
-    "gatsby-plugin-segment": "^1.0.2",
     "gatsby-plugin-sitemap": "^1.2.9",
     "gatsby-plugin-styled-components": "^2.0.4",
     "gatsby-plugin-webpack-bundle-analyzer": "^0.1.1",
@@ -21,12 +21,8 @@
     "react-dom": "^15.6.1",
     "react-helmet": "^5.2.0",
     "react-masonry-css": "^1.0.11",
-    "react-sizeme": "2.4.1",
-    "react-stack-grid": "2.4.1",
     "react-style-tag": "^2.0.1",
-    "react-virtualized": "^9.18.5",
-    "styled-components": "^2.1.2",
-    "webfontloader": "^1.6.28"
+    "styled-components": "^2.1.2"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
