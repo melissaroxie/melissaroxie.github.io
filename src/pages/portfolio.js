@@ -1,6 +1,8 @@
 import React, { Component } from "react"
-import Masonry from 'react-masonry-css'
+import Masonry from "react-masonry-css"
 import { Style } from "react-style-tag"
+import Modal from "../components/Modal"
+import styled from "styled-components";
 
 const breakpointColumnsObj = {
   default: 4,
@@ -142,6 +144,26 @@ const elements = [
 ]
 
 class GalleryPage extends Component {
+  state = { 
+    isModalOpen: false, 
+    modalUrl: "", 
+  }
+
+  handleModal = (image) => {
+    let fullImage = image.replace("564x", "originals")
+    this.setState({
+      isModalOpen: !this.state.isModalOpen,
+      modalUrl: fullImage,
+    })
+  }
+
+  componentDidMount() {
+    const url = "https://i.pinimg.com/564x/d7/ed/9b/d7ed9b564b2d26bfa7c114e9b838cac6.jpg"
+    console.log("url", url)
+    let fullImage = url.replace("564x", "originals")
+    console.log("fullImage", fullImage)
+  }
+
   render() {
     return (
       <div>
@@ -157,8 +179,8 @@ class GalleryPage extends Component {
             columnClassName="my-masonry-grid_column"
           >
             {elements.map(item => (
-              <div id={item.src} className="mb3">
-                <img className="db w-100" src={item.src} />
+              <div key={item.src} className="mb3">
+                <Item className="db w-100" src={item.src} onClick={this.handleModal.bind(null, item.src)} alt="Melissa Calamia" />
               </div>
             ))}
           </Masonry>
@@ -176,10 +198,26 @@ class GalleryPage extends Component {
               background-clip: padding-box;
             }
           `}</Style>
+
+          {this.state.isModalOpen ?
+            <Modal isActive={this.state.isModalOpen} closeModal={this.handleModal.bind(null, "")} title="Portfolio Item">
+              <img src={this.state.modalUrl} />
+            </Modal>
+          : null}
         </div>
       </div>
     );
   }
 }
+
+const Item = styled.img`
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  }
+`
 
 export default GalleryPage;
