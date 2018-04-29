@@ -44,7 +44,7 @@
   "scripts": {
     "build": "rm -rf public/* && gatsby build",
     "start": "gatsby develop --https",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "format:js": "prettier 'src/**/*.{js,jsx}' --write",
     "test": "jest",
     "test:watch": "jest --watch",
