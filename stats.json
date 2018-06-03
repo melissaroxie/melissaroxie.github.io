@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-7d5ec8a205c105178f95.js",
-      "component---src-pages-index-js-7d5ec8a205c105178f95.js.map"
+      "component---src-pages-index-js-08a3b20769d6752c31c4.js",
+      "component---src-pages-index-js-08a3b20769d6752c31c4.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -13,12 +13,16 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-13ccb4f3b23d1e96d4bd.js",
-      "component---src-layouts-index-js-13ccb4f3b23d1e96d4bd.js.map"
+      "component---src-layouts-index-js-01e47b43c92831b5ae57.js",
+      "component---src-layouts-index-js-01e47b43c92831b5ae57.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-resume-js": [
+      "component---src-pages-resume-js-05643a84506837539dd0.js",
+      "component---src-pages-resume-js-05643a84506837539dd0.js.map"
     ],
     "commons": [
       "commons-0bad8ba37545ccf0d612.js",
@@ -32,13 +36,17 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---resume": [
+      "path---resume-a0e39f21c11f6a62c5ab.js",
+      "path---resume-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "app": [
-      "app-495debb802a11a42a782.js",
-      "app-495debb802a11a42a782.js.map"
+      "app-548b4a7bc092409a8959.js",
+      "app-548b4a7bc092409a8959.js.map"
     ],
     "component---src-pages-portfolio-js": [
-      "component---src-pages-portfolio-js-cac6811688fb1943073c.js",
-      "component---src-pages-portfolio-js-cac6811688fb1943073c.js.map"
+      "component---src-pages-portfolio-js-ffc936d9033962fb9ec6.js",
+      "component---src-pages-portfolio-js-ffc936d9033962fb9ec6.js.map"
     ]
   }
 }
