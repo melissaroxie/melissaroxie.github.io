@@ -144,32 +144,11 @@ const elements = [
 ]
 
 class GalleryPage extends Component {
-  state = { 
-    isModalOpen: false, 
-    modalUrl: "", 
-  }
-
-  handleModal = (image) => {
-    let fullImage = image.replace("564x", "originals")
-    this.setState({
-      isModalOpen: !this.state.isModalOpen,
-      modalUrl: fullImage,
-    })
-  }
-
-  componentDidMount() {
-    const url = "https://i.pinimg.com/564x/d7/ed/9b/d7ed9b564b2d26bfa7c114e9b838cac6.jpg"
-    console.log("url", url)
-    let fullImage = url.replace("564x", "originals")
-    console.log("fullImage", fullImage)
-  }
-
   render() {
     return (
       <div>
         <div className="mw9 center bb bw1 b--black-05 pt2 pb4-ns pb2 mb6-ns mb3 relative">
-          <h1 className="f1 f-headline-l lh-solid mb1 avenir ttu tracked fw1 black-70">Melissa Calamia</h1>
-          <h2 className="f3 lh-copy athelas normal fw9">A New York based intimates & swimwear designer</h2>
+          <h1 className="f1 f-headline-l lh-solid mb1 athelas fw9">Portfolio</h1>
         </div>
 
         <div className="mw9 center relative">
@@ -180,7 +159,7 @@ class GalleryPage extends Component {
           >
             {elements.map(item => (
               <div key={item.src} className="mb3">
-                <Item className="db w-100" src={item.src} onClick={this.handleModal.bind(null, item.src)} alt="Melissa Calamia" />
+                <Item className="db w-100" src={item.src} alt="Melissa Calamia" />
               </div>
             ))}
           </Masonry>
@@ -199,11 +178,6 @@ class GalleryPage extends Component {
             }
           `}</Style>
 
-          {this.state.isModalOpen ?
-            <Modal isActive={this.state.isModalOpen} closeModal={this.handleModal.bind(null, "")} title="Portfolio Item">
-              <img src={this.state.modalUrl} />
-            </Modal>
-          : null}
         </div>
       </div>
     );
@@ -211,13 +185,7 @@ class GalleryPage extends Component {
 }
 
 const Item = styled.img`
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
-
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-  }
 `
 
 export default GalleryPage;
