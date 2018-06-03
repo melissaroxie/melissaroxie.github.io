@@ -8,7 +8,7 @@ class IndexPage extends Component {
         <div className="mw9 center mb6">
           <div className="flex-l pr3 pr0-l items-end contain">
             <HeaderImageWrapper className="w-100 w-60-l">
-              <HeaderImage src="/images/photo/7.jpg" />
+              <HeaderImage src="/images/melissa-calamia.jpg" />
             </HeaderImageWrapper>
             <div className="w-100 w-40-l pa3 pa4-l">
               <h1 className="f3 lh-solid mb3 avenir ttu tracked fw1 black-70">Melissa Calamia</h1>
