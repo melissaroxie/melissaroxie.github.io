@@ -10,7 +10,7 @@ class ResumePage extends Component {
 
         <div className="mw8 center mv5 bb bw1 b--black-05 pb5 relative">
           <h1 className="f1 f-headline-l lh-solid mb1 avenir ttu tracked fw1 black-70">Melissa Calamia</h1>
-          <h2 className="f3 lh-copy athelas normal fw9 mb6">A New York based intimates & swimwear designer</h2>
+          <h2 className="f3 lh-copy athelas normal fw9 mb6">A New York based intimates, swimwear & activewear designer</h2>
           <div>
             <h1 className="f1 lh-copy-ns mb3 mt0 dib mr3 athelas">Aéropostale</h1>
             <p className="dib lh-copy f5 i athelas">New York, NY / April 2017- Present</p>
