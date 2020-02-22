@@ -14,7 +14,7 @@ class IndexPage extends Component {
               <h1 className="f3 lh-solid mb3 avenir ttu tracked fw1 black-70">Melissa Calamia</h1>
               <h2 className="f1 lh-solid athelas normal fw9 mt0">A New York based intimates, swimwear & activewear designer</h2>
               <p className="lh-copy f4-ns avenir mb3">
-                Melissa Calamia is an experienced and dedicated fashion designer who has specialized in Intimates, Activewear, Swimwear and Loungewear for over 7 years. 
+                Melissa Calamia is an experienced and dedicated fashion designer who has specialized in Intimates, Activewear, Swimwear and Loungewear for over 8 years. 
               </p>
               <p className="lh-copy f4-ns avenir mb0">
                 She is ambitious, detail-oriented, friendly and knowledgeable in all areas related to her expertise. Her clean, forward aesthetic applies easily to any market position and her passion for fit and quality influences every part of her design process.
@@ -110,7 +110,7 @@ class IndexPage extends Component {
             With innovation at the forefront of each seasonal concept, she is able to easily identify whitespace opportunities and adapt to ever-changing market trends. 
           </p>
           <p className="lh-copy f4-ns avenir mb3">
-            Her reputation for restructuring and revitalizing new or underperforming brands and categories is well-earned, making her an invaluable resource for any design team.
+            Her reputation for successfully launching, restructuring and revitalizing new or underperforming brands and categories is well-earned, making her an invaluable resource for any design team.
           </p>
           <p className="lh-copy f4-ns avenir mb5">
             As a leader Melissa is charismatic and approachable, highly self-motivated, and a diplomatic liaison between cross-functional team members. She is always eager to share her craft; acting as a mentor to direct reports, a guest-lecturer at FIT, and consultant for brands around the globe. 

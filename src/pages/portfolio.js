@@ -12,14 +12,28 @@ const breakpointColumnsObj = {
 };
 
 const elements = [
+  { src: "https://i.pinimg.com/564x/f2/bf/74/f2bf743a28ced0d3c843eb5996416bed.jpg" },
+  { src: "https://i.pinimg.com/564x/5c/9a/31/5c9a312dc41d8dbd1285e7a96bd2665e.jpg" },
+  { src: "https://i.pinimg.com/564x/31/53/68/315368600bfeff0f0325746ef7f8a327.jpg" },
+  { src: "https://i.pinimg.com/564x/01/da/80/01da80962395e95657b24570dca11785.jpg" },
+  { src: "https://i.pinimg.com/564x/e6/f9/c7/e6f9c714fdb31cd2f050d24c555c273b.jpg" },
+  { src: "https://i.pinimg.com/564x/89/18/ec/8918ec56b0dbe300c0d68dfc988bbf80.jpg" },
+  { src: "https://i.pinimg.com/564x/fa/25/88/fa25887919aec0286e4a50f3fc77dd56.jpg" },
+  { src: "https://i.pinimg.com/564x/75/20/70/7520701de4a9a0e46c9d531dd66396db.jpg" },
+  { src: "https://i.pinimg.com/564x/fb/97/9e/fb979e19479da669919016f5dd677827.jpg" },
+  { src: "https://i.pinimg.com/564x/2a/e2/43/2ae24353903e663d6ca4a424939b8961.jpg" },
+  { src: "https://i.pinimg.com/564x/0a/37/7e/0a377e3d32c6401f844481dfc1be9f55.jpg" },
   { src: "https://i.pinimg.com/564x/fd/19/aa/fd19aa8c269c4442110580d252075a80.jpg" },
   { src: "https://i.pinimg.com/564x/f9/1d/51/f91d51eb288d40a452c1c4ce0ef7ee0a.jpg" },
   { src: "https://i.pinimg.com/564x/ef/9e/a9/ef9ea9264e63984b0d02151850d96cc0.jpg" },
   { src: "https://i.pinimg.com/564x/0f/5b/ba/0f5bbae5d5129428f7e67370d8ac4259.jpg" },
+  { src: "https://i.pinimg.com/564x/d4/93/6c/d4936cfd8ce79dc9ba147acc48ceaa82.jpg" },
+  { src: "https://i.pinimg.com/564x/87/9f/91/879f91d8feb44d7c6fec179a06eb5b48.jpg" },
   { src: "https://i.pinimg.com/564x/12/11/67/121167083a18f8a1107135d0bce8dee4.jpg" },
   { src: "https://i.pinimg.com/564x/45/d7/e6/45d7e6dfacb1c9feaadcb80d9e18c4da.jpg" },
   { src: "https://i.pinimg.com/564x/2a/ca/01/2aca01b6c3d8616ca817481a641dd9f7.jpg" },
   { src: "https://i.pinimg.com/564x/9b/e5/eb/9be5eb0eb807c1abb412b10e87af7102.jpg" },
+  { src: "https://i.pinimg.com/564x/69/64/2b/69642b3ce2c49cb675d418253b9e413d.jpg" },
   { src: "https://i.pinimg.com/564x/f5/ef/ff/f5efff1fc2e6ea8c400709a4194f130e.jpg" },
   { src: "https://i.pinimg.com/564x/be/53/73/be537356e65cbfa53b0fcd3a890b2387.jpg" },
   { src: "https://i.pinimg.com/564x/2d/70/09/2d700962e9d2d75461ed902e7a98c58a.jpg" },
@@ -202,7 +216,6 @@ const elements = [
   { src: "https://i.pinimg.com/564x/79/fd/56/79fd5654942d543e7018ea5a7b65a208.jpg" },
   { src: "https://i.pinimg.com/564x/35/53/5d/35535dc8dd468e631f4de37bea8cdfdc.jpg" },
   { src: "https://i.pinimg.com/564x/3e/2a/2a/3e2a2a7f7653a28716e0208a7d3fc3a2.jpg" },
-  { src: "https://i.pinimg.com/564x/81/67/1b/81671b15bc23180bb57e83de5f8d9996.jpg" },
   { src: "https://i.pinimg.com/564x/81/67/1b/81671b15bc23180bb57e83de5f8d9996.jpg" },
 ]
 
