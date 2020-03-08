@@ -40,8 +40,18 @@ class PressPage extends Component {
             <h1 className="f1 lh-copy-ns mb3 mt0 dib mr3 athelas">Alumni Update: Melissa Calamia</h1>
             <a href="https://fashionschooldaily.com/24896/alumni-update-melissa-calamia/" className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-gray lh-copy f5-ns avenir" target="_black">Read</a>
           </div>
-          <div className="fl w-40-ns pa2">
+          <div className="fl w-100 w-40-ns pa2">
             <img src="https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/https://fashionschooldaily.com/wp-content/uploads/2013/07/JPG.jpg" />
+          </div>
+        </div>
+
+        <div className="mw8 center mv5 bb bw1 b--black-05 pb5 cf relative">
+          <div className="fl w-60-ns pa2">
+            <h1 className="f1 lh-copy-ns mb3 mt0 dib mr3 athelas">Jean Paul Gaultier wows students at Academy of Art University</h1>
+            <a href="https://blog.sfgate.com/chronstyle/2012/03/22/jean-paul-gaultier-wows-students-at-academy-of-art-university/" className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-gray lh-copy f5-ns avenir" target="_black">Read</a>
+          </div>
+          <div className="fl w-100 w-40-ns pa2">
+            <img src="https://blog.sfgate.com/chronstyle/files/2012/03/IMAG0142-600x337.jpg" />
           </div>
         </div>
 
