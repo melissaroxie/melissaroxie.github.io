@@ -51,7 +51,7 @@ class PressPage extends Component {
             <a href="https://blog.sfgate.com/chronstyle/2012/03/22/jean-paul-gaultier-wows-students-at-academy-of-art-university/" className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-gray lh-copy f5-ns avenir" target="_black">Read</a>
           </div>
           <div className="fl w-100 w-40-ns pa2">
-            <img src="https://blog.sfgate.com/chronstyle/files/2012/03/IMAG0142-600x337.jpg" />
+            <img src="https://blog.sfgate.com/chronstyle/files/2012/03/IMAG0164-600x337.jpg" />
           </div>
         </div>
 
