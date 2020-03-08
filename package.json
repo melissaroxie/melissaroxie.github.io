@@ -22,6 +22,7 @@
     "react-dom": "^15.6.1",
     "react-helmet": "^5.2.0",
     "react-masonry-css": "^1.0.11",
+    "react-player": "^1.15.2",
     "react-spring": "^5.1.1",
     "react-sticky": "^6.0.2",
     "react-style-tag": "^2.0.1",
