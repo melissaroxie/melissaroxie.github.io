@@ -17,6 +17,7 @@ const TemplateWrapper = ({ children }) => (
                 <Link className="avenir link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/" title="About">About</Link>
                 <Link className="avenir link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/portfolio" title="Portfolio">Portfolio</Link>
                 <Link className="avenir link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/resume" title="Resume">Resume</Link>
+                <Link className="avenir link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/press" title="Press">Press</Link>
                 <a className="avenir link dim dark-gray f6 f5-l dib mr3 mr4-l" href="mailto:melissa@melissacalamia.com" title="Contact">Contact</a>
                 <a className="avenir link dim dark-gray f6 f5-l dib mr1 mr2-l v-mid" target="_blank" href="https://www.instagram.com/melissaroxie" title="Instagram">
                   <img src="/icons/instagram.svg" width="24" height="20" />
