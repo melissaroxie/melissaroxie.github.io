@@ -15,7 +15,7 @@ class ResumePage extends Component {
             <h1 className="f1 lh-copy-ns mb3 mt0 dib mr3 athelas">Bombas</h1>
             <p className="dib lh-copy f5 i athelas">New York, NY / January 2019 - Present</p>
           </div>
-          <h2 className="f4 lh-copy mt0 black-70 normal avenir tracked ttu">Senior Product Designer</h2>
+          <h2 className="f4 lh-copy mt0 black-70 normal avenir tracked ttu">Senior Product Designer - Intimates</h2>
         </div>
 
         <div className="mw8 center mv5 bb bw1 b--black-05 pb5 relative">
