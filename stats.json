@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-a53c8c76bdeddc07e444.js",
-      "component---src-pages-index-js-a53c8c76bdeddc07e444.js.map"
+      "component---src-pages-index-js-26795dc830c36ba1f5bf.js",
+      "component---src-pages-index-js-26795dc830c36ba1f5bf.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -13,24 +13,24 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-c22d72450d7a2417b4b1.js",
-      "component---src-layouts-index-js-c22d72450d7a2417b4b1.js.map"
+      "component---src-layouts-index-js-c44bc4c28e4ba3ce49c6.js",
+      "component---src-layouts-index-js-c44bc4c28e4ba3ce49c6.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-resume-js": [
-      "component---src-pages-resume-js-0129824098d4df704c51.js",
-      "component---src-pages-resume-js-0129824098d4df704c51.js.map"
+      "component---src-pages-resume-js-61f22e6c28e102dae077.js",
+      "component---src-pages-resume-js-61f22e6c28e102dae077.js.map"
     ],
     "commons": [
-      "commons-a09f579995bae8264a1b.js",
-      "commons-a09f579995bae8264a1b.js.map"
+      "commons-a3423492f3ac43a48463.js",
+      "commons-a3423492f3ac43a48463.js.map"
     ],
     "component---src-pages-press-js": [
-      "component---src-pages-press-js-3e7dd213496ac9046948.js",
-      "component---src-pages-press-js-3e7dd213496ac9046948.js.map"
+      "component---src-pages-press-js-4000c46d4b301761387e.js",
+      "component---src-pages-press-js-4000c46d4b301761387e.js.map"
     ],
     "path---portfolio": [
       "path---portfolio-a0e39f21c11f6a62c5ab.js",
@@ -45,12 +45,12 @@
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-be8a649fddaf20219c19.js",
-      "app-be8a649fddaf20219c19.js.map"
+      "app-05fc7de2b66d18645265.js",
+      "app-05fc7de2b66d18645265.js.map"
     ],
     "component---src-pages-portfolio-js": [
-      "component---src-pages-portfolio-js-7c7327882a7459d20a06.js",
-      "component---src-pages-portfolio-js-7c7327882a7459d20a06.js.map"
+      "component---src-pages-portfolio-js-6f726e6aaad7a023b259.js",
+      "component---src-pages-portfolio-js-6f726e6aaad7a023b259.js.map"
     ],
     "path---press": [
       "path---press-a0e39f21c11f6a62c5ab.js",
