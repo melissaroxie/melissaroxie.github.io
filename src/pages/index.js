@@ -12,9 +12,9 @@ class IndexPage extends Component {
             </HeaderImageWrapper>
             <div className="w-100 w-40-l pa3 pa4-l">
               <h1 className="f3 lh-solid mb3 avenir ttu tracked fw1 black-70">Melissa Calamia</h1>
-              <h2 className="f1 lh-solid athelas normal fw9 mt0">A New York based intimates, swimwear & activewear designer</h2>
+              <h2 className="f1 lh-solid athelas normal fw9 mt0">A New York based intimates, swimwear &amp; activewear designer</h2>
               <p className="lh-copy f4-ns avenir mb3">
-                Melissa Calamia is an experienced and dedicated fashion designer who has specialized in Intimates, Activewear, Swimwear and Loungewear for over 8 years. 
+                Melissa Calamia is an experienced and dedicated fashion designer who has specialized in Intimates, Activewear, Swimwear and Loungewear for over 10 years. 
               </p>
               <p className="lh-copy f4-ns avenir mb0">
                 She is ambitious, detail-oriented, friendly and knowledgeable in all areas related to her expertise. Her clean, forward aesthetic applies easily to any market position and her passion for fit and quality influences every part of her design process.
