@@ -294,7 +294,7 @@ class GalleryPage extends Component {
             columnClassName="my-masonry-grid_column"
           >
             {elements.map(item => (
-              <div key={item.src} className="mb3">
+              <div key={item.src} className="mb2">
                 <Item className="db w-100" src={item.src} alt="Melissa Calamia" />
               </div>
             ))}
